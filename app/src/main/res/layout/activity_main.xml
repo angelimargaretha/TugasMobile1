@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+   android:background="#C0C0C0">
+
+    <ImageView
+        android:id="@+id/cv"
+        android:layout_width="match_parent"
+        android:layout_height="527dp"
+        android:layout_marginTop="0dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/cv1" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+   <TextView
+       android:id="@+id/text"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="\nTENTANG SAYA"
+       android:textSize="30dp"
+       android:textStyle="bold">
+   </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="\nPerkenalkan nama saya Angeli Margaretha sering dipanggil Enjel, saya kuliah di UPN Veteran Yogyakarta jurusan Teknik Informatika Prodi Sistem Informasi Tahun 2018. Saya memiliki hobi jalan-jalan dan mengabadikan moment, pengen nya memiliki hobi ngoding sih. Awalnya cita-cita saya Polwan namun saat sudah kuliah saya memiliki cita-cita kerja di kantor kementrian. "
+        android:textSize="20dp"
+        android:fontFamily="serif-monospace">
+
+    </TextView>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
